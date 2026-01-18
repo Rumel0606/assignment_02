@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    nav{
+        padding: 0 7px;
+    }
+  .btn{
+    display: none;
+  }  
+  nav ul{
+    display: none;
+  } 
+  .humberger{
+    display: block;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+     nav{
+        padding: 0 7px;
+    }
+}
+
+
+
