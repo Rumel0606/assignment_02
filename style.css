@@ -125,3 +125,26 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+
+/* Choose techwave Styling */
+
+.techwave-choss-sec h1{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.card{
+    background: rgba(53, 17, 101, 0.4);
+    width: 350px;
+}
+.card h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+.card p {
+    padding: 30px;
+    font-size: 14px;
+    color: rgb(207, 197, 197);
+    margin: 10px 0;
+}
