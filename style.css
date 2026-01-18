@@ -60,3 +60,68 @@ nav{
 .humberger{
  display: none;
 }
+/* Hero section Styling */
+
+.hero-main-section{
+    height: 100vh;
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative; 
+}
+
+.hero-circle img {
+    position: absolute;
+    top: 10%;
+    left: 39%;
+}
+
+.mic-png img {
+    width: 100px;
+    position: absolute;
+    top: 22%;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Podcast Style */
+.podcast-up{
+    text-align: center;
+    width: 700px;
+    margin: 70px auto;
+}
+.podcast-up h1{
+    color:#ffffff;
+    font-size: 25px;
+}
+.podcast-up p {
+    color: rgb(207, 197, 197);
+    font-size: 14px;
+}
+.podcast-up .p-middle{
+    margin: 10px 0 20px 0;
+}  
+
+.view-card h1{
+    font-size: 40px;
+    color:rgba(0, 255, 136, 1);
+    margin-bottom: 5px;
+}
+.view-card p{
+    font-size: 13px;
+  color: rgb(207, 197, 197);
+}
+.view-card-main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}

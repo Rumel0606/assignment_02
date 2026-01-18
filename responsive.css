@@ -11,6 +11,32 @@
   .humberger{
     display: block;
   }
+  .hero-main-section{
+    height:60vh;
+    background-repeat: no-repeat;
+    background-size:cover; 
+         
+}
+.hero-circle img{
+    width: 220px;
+     top:10%;
+    left:18%;
+}
+.mic-png img {
+    width: 60px;
+    position: absolute;
+    top: 22%;
+    margin-left: 73px;
+    display: block;
+}
+.podcast-up{
+    width:100%;
+}
+.view-card-main{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 }
 
 
