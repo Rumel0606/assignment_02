@@ -31,6 +31,7 @@
 }
 .podcast-up{
     width:100%;
+    padding: 0 10px;
 }
 .view-card-main{
     flex-wrap: wrap;
@@ -49,14 +50,19 @@
 }
 .techwave-main{
   padding:  10px;
-  height: 1000px;
+  height: 900px;
+  
+}
+.techwave-main{
+  background: rgba(53, 17, 101, 0.049);
+  height: 720px;
 }
 .edpisodes-title{
-  margin: 70px 0 20px 0;
+  margin: 350px 0 20px 0;
   font-size: 25px;
 }
 .episodes-card{
-    width:100%;
+    width:90%;
     margin: 10px 0;
 }
 .episodes-card iframe{
@@ -66,11 +72,34 @@
    flex-direction: column;
     gap: 10px;
    justify-content: center;
+   align-items: center;
    padding: 0 10px ;
+   margin-top: 50px;
 }
 .host-card{
    flex-direction: column;
    text-align: center;
+}
+.host-section-main{
+    padding: 0 15px;
+}
+.footer-content>img{
+    width: 200px;
+}
+.footer-main{
+    height:100%;
+    background-image: url(./images/footer-bg.png);
+    background-size:cover;
+    margin-top: 60px;
+    padding: 30px;
+}
+.footer-social{
+    margin-top: 30px;
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 }
 
