@@ -91,18 +91,19 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    top:-30px;
-    left: 40px;
+    top: -10%;
+    left: 10%;
 }
 .mic-img{
   position: absolute;
-  top: 28%;
- left:35% ;
+  top:30%;
+  left: 35%;
+  
 }
 .badeg{
     position: absolute;
-    top: 240px;
-    right: 40%;
+    top:25%;
+    right:40%;
     background: #00FF88;
     padding: 5px 10px;
     border-radius: 20px; 
