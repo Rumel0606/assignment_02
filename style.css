@@ -124,6 +124,10 @@ nav{
 }
 
 /* Choose techwave Styling */
+.techwave-main{
+   background: rgba(53, 17, 101, 0.4);
+  height: 720px;
+}
 
 .techwave-choss-sec h1{
     margin-top: 90px;
@@ -131,6 +135,8 @@ nav{
     font-size: 30px;
     color: white;
     margin-bottom: 30px;
+    padding: 10px 0;
+    
 }
 .card{
     background: rgba(53, 17, 101, 0.4);
@@ -153,7 +159,7 @@ nav{
 .techwave-card{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(6,190px);
+    grid-template-rows: repeat(6,160px);
     gap: 15px;
 }
 .frist{
@@ -168,4 +174,52 @@ nav{
 }
 .fourth{
     grid-column: 2 span;
+}
+
+/* Episodes Styling */
+.episodes-card-main{
+    display: flex;
+    gap: 30px;
+   justify-content: center;
+}
+.edpisodes-title{
+  margin: 80px 0 20px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.episodes-card{
+    width: 300px;
+    height: 100%;
+     background: rgba(53, 17, 101, 0.4);
+     border-radius: 10px;
+     margin: 30px 0;
+     box-sizing: border-box;
+}
+.episodes-card h3{
+    font-size: 16px;
+    color: #ffffff;
+}
+.episodes-card p{
+    font-size: 12px;
+     color: rgb(207, 197, 197);
+     margin: 8px 0;
+    
+}
+.episodes-card iframe {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card-content{
+    padding: 10px;    
+}
+.card-content img{
+    width: 12px;
+     margin-right: 4px;
+     margin-top: 6px;
+}
+.card-content h4{
+    color:rgba(0, 255, 136, 1);
+    font-size: 14px;
+   
 }

@@ -45,6 +45,25 @@
 }
 .card{
     padding: 10px 20px;
+    width: 100%;
+}
+.techwave-main{
+  padding: 0 10px;
+  height: 1000px;
+}
+.edpisodes-title{
+  margin: 30px 0 20px 0;
+  font-size: 25px;
+}
+.episodes-card{
+    width:100%;
+    height: 100%;
+    margin: 10px 0;
+}
+.episodes-card-main{
+   flex-direction: column;
+    gap: 10px;
+   justify-content: center;
 }
 }
 
@@ -57,7 +76,20 @@
      nav{
         padding: 0 7px;
     }
+    .techwave-card{
+    grid-template-columns: repeat(1,1fr);
 }
-
+.frist{
+    grid-row: 1 span;
+    
+}
+.card{
+    padding: 10px 20px;
+}
+.techwave-main{
+  padding: 0 10px;
+   height: 1000px;
+}
+}
 
 
