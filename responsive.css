@@ -36,7 +36,16 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-
+.techwave-card{
+    grid-template-columns: repeat(1,1fr);
+}
+.frist{
+    grid-row: 1 span;
+    
+}
+.card{
+    padding: 10px 20px;
+}
 }
 
 
