@@ -116,9 +116,10 @@ nav{
     font-size: 40px;
     margin: 10px 0;
 }
+
 .hero-content p{
     color: rgb(207, 197, 197);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .transparent-btn{
     background-color: #00ff880c;
