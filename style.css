@@ -6,7 +6,7 @@
 }
 body{
       font-family: "Inter", sans-serif;
-      background-color: #1e1e1e;
+      background-color: #1a0b2e;
 }
 
 /* Shared Style */
@@ -222,4 +222,42 @@ nav{
     color:rgba(0, 255, 136, 1);
     font-size: 14px;
    
+}
+/*  Meet the Host Section  */
+
+.host-title{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 30px 0;
+}
+.host-card{
+   background: rgba(53, 17, 101, 0.4);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px ;
+   border-radius: 8px;
+}
+.host-card>img {
+    width: 130px;
+}
+.host-bio h2{
+    font-size: 20px;
+    color: #ffffff;
+}
+.host-bio p{
+    font-size: 12px;
+     color: rgb(207, 197, 197);
+     margin: 10px 0;
+}
+.icons img {
+    
+    width: 23px;
+    border: 1px solid  rgba(156, 13, 158, 0.342); 
+    padding: 7px;
+    border-radius: 20px;
+    object-fit: cover;
+    
 }
