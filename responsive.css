@@ -11,24 +11,32 @@
   .humberger{
     display: block;
   }
-  .hero-main-section{
-    height:60vh;
+
+.hero-main-section{
+    height: 50vh;
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:cover; 
-         
+   background-size: contain;
 }
-.hero-circle img{
-    width: 220px;
-     top:10%;
-    left:18%;
+ .circle-img{
+    width: 250px;
+    height: 50vh;
+    background-size: 230px;
+    top: 15px;
+    left: 50px;
+    
+   
+} 
+.mic-img {
+  width: 55px;
+} 
+.badeg{
+    right: 20%;
+    top: 180px;
 }
-.mic-png img {
-    width: 60px;
-    position: absolute;
-    top: 22%;
-    margin-left: 73px;
-    display: block;
-}
+
+
 .podcast-up{
     width:100%;
     padding: 0 10px;
