@@ -18,6 +18,9 @@ body{
     border: none;
     font-size: 14px;
     animation: pulse 1s infinite;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 @keyframes pulse {
   0% {
@@ -134,6 +137,9 @@ nav{
     border: 1px solid #00FF88;
     font-size: 14px;
     color: #00FF88;
+    display: flex;
+    align-items: center;
+    gap: 5px;
     animation: pulse 1s infinite;
 }
 .hero-content img{
