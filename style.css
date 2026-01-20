@@ -73,41 +73,41 @@ nav{
  display: none;
 }
 /* Hero section Styling */
-
-.hero-main-section{
-    height: 100vh;
+.hero-main{
+    height: 90vh;
     background-image: url(./images/hero-bg.png);
     background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
+    background-size: cover;
+}
+.hero-sceond{
+    display:flex ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top:100px ;
 }
-.circle-img{
-    width: 450px;
-    height: 50vh;
-   background-image: url(./images/hero-circle.png);
-    background-position: center;
-    background-repeat: no-repeat;
+.hero-third{
     position: relative;
-    top: -10%;
-    left: 10%;
 }
-.mic-img{
-  position: absolute;
-  top:30%;
-  left: 35%;
-  
+.hero-cirle{
+    height: 300px;
+    width: 300px;
+    background-image: url(./images/hero-circle.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .badeg{
+    background-color: #00FF88;
+    font-weight: 700;
+    padding:7px 14px;
+    border-radius: 10px;
     position: absolute;
-    top:25%;
-    right:40%;
-    background: #00FF88;
-    padding: 5px 10px;
-    border-radius: 20px; 
-    font-weight: bold;
+    top: 20px;
+    right: 10px;
 }
 .hero-content{
     text-align: center;
@@ -122,6 +122,7 @@ nav{
     color: rgb(207, 197, 197);
     margin-bottom: 15px;
 }
+
 .transparent-btn{
     background-color: #00ff880c;
     padding: 8px 10px;
@@ -141,11 +142,11 @@ nav{
 .podcast-up{
     text-align: center;
     width: 700px;
-    margin: 70px auto;
+    margin: 0px auto;
 }
 .podcast-up h1{
     color:#ffffff;
-    font-size: 25px;
+    font-size: 30px;
 }
 .podcast-up p {
     color: rgb(207, 197, 197);
