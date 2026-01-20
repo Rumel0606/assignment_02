@@ -82,18 +82,19 @@
     width: 200px;
 }
 .footer-main{
-    height:100%;
     background-image: url(./images/footer-bg.png);
-    background-size:cover;
-    margin-top: 60px;
-    padding: 30px;
+    background-size:700px;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    
 }
 .footer-social{
     margin-top: 30px;
     display: flex;
-   flex-wrap: wrap;
+    flex-direction:row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 }
